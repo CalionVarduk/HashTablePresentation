@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F8FFF36-ED90-466A-A13E-616FA5362427}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HashTablePresentation</RootNamespace>
+    <AssemblyName>HashTablePresentation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddItemForm.Designer.cs">
+      <DependentUpon>AddItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Animations\Animation.cs" />
+    <Compile Include="Animations\ChangeValueAnimation.cs" />
+    <Compile Include="Animations\ResizeAnimation.cs" />
+    <Compile Include="Animations\SearchAnimation.cs" />
+    <Compile Include="BucketView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BucketView.Designer.cs">
+      <DependentUpon>BucketView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Animations\Animator.cs" />
+    <Compile Include="HashMapView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HashMapView.Designer.cs">
+      <DependentUpon>HashMapView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Animations\InsertAnimation.cs" />
+    <Compile Include="ItemEventArgs.cs" />
+    <Compile Include="ItemView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ItemView.Designer.cs">
+      <DependentUpon>ItemView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Animations\RemoveAnimation.cs" />
+    <Compile Include="RemoveItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemoveItemForm.Designer.cs">
+      <DependentUpon>RemoveItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResizeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResizeForm.Designer.cs">
+      <DependentUpon>ResizeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchItemForm.Designer.cs">
+      <DependentUpon>SearchItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddItemForm.resx">
+      <DependentUpon>AddItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BucketView.resx">
+      <DependentUpon>BucketView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HashMapView.resx">
+      <DependentUpon>HashMapView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemView.resx">
+      <DependentUpon>ItemView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RemoveItemForm.resx">
+      <DependentUpon>RemoveItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResizeForm.resx">
+      <DependentUpon>ResizeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchItemForm.resx">
+      <DependentUpon>SearchItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HashTableLib\HashTableLib.csproj">
+      <Project>{08218b86-4b7c-4f8e-b8d5-2fb5557fe04f}</Project>
+      <Name>HashTableLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

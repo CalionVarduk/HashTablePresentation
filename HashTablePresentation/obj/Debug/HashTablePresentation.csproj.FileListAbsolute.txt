@@ -1,0 +1,38 @@
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\bin\Debug\HashTablePresentation.exe.config
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.csprojResolveAssemblyReference.cache
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.Properties.Resources.resources
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.csproj.GenerateResource.Cache
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\bin\Debug\HashTablePresentation.exe
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\bin\Debug\HashTablePresentation.pdb
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.exe
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.pdb
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\bin\Debug\HashTableLib.dll
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\bin\Debug\HashTableLib.pdb
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.AddItemForm.resources
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.ItemView.resources
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.MainForm.resources
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.BucketView.resources
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.HashMapView.resources
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.RemoveItemForm.resources
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.ResizeForm.resources
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.SearchItemForm.resources
+C:\Users\Calion\Desktop\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.SettingsForm.resources
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\bin\Debug\HashTablePresentation.exe.config
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.exe
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.pdb
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\bin\Debug\HashTablePresentation.exe
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\bin\Debug\HashTablePresentation.pdb
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\bin\Debug\HashTableLib.dll
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\bin\Debug\HashTableLib.pdb
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.csprojResolveAssemblyReference.cache
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.AddItemForm.resources
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.BucketView.resources
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.HashMapView.resources
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.ItemView.resources
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.MainForm.resources
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.Properties.Resources.resources
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.RemoveItemForm.resources
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.ResizeForm.resources
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.SearchItemForm.resources
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.SettingsForm.resources
+H:\uś inf2\pp\HashTablePresentation\HashTablePresentation\obj\Debug\HashTablePresentation.csproj.GenerateResource.Cache
